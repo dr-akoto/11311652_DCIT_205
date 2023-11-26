@@ -24,11 +24,95 @@
             text-align: center;
             font-size: 18px;
             line-height: 21px;
+            color: white;
         }
         h1{
             text-align: center;
             padding-top: 100px;
+            color:white;
         }
+        
+        /* course */
+.prospect{
+    margin: auto;
+text-align: center;
+padding: 100px;
+width: 80%;
+margin: 5px;
+/*background-color: #779;
+border-radius: 10px; */
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+font-size: 13px;
+font-weight: 300;
+color:#000;
+line-height: 22px;
+padding: 10px;
+}
+.row{
+margin-top: 5%;
+justify-content: space-between;
+display: flex;
+}
+.prospect-col{
+    flex-basis:31% ;
+    background: #055d77;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    padding: 10px 6px;
+    padding-left: 0;
+    box-sizing: border-box;
+    transition: .5s;
+    color: white;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    font-weight: 600px;
+    margin: 10px 0;
+}
+.prospect-col:hover{
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+.about-info{margin-top: 0px;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    width: 80%;
+}
+.about-info div{
+    width: 500px;
+    display: flex;
+   
+}
+.about-info img{
+        width: 100%;
+        display: block;
+        padding-left: 20px;
+        height: 100%;
+        border-radius: 15px;
+}
+.about-info p{
+    margin-bottom: 30px;
+}
+.facilities-col{
+border-radius: 10px;
+text-align: left;
+margin-bottom: 5%;
+display: inline-block;
+flex-basis: 35%;
+}
+.welcome h1{
+color: #055d77;
+}
+.welcome,.prospect p{
+font-size: 18px;
+}
     </style>
 </head>
 <body> 
@@ -39,10 +123,10 @@
                 <div class="nav-links">
                     <ul>
                         <li ><a href="index.html">Home</a></li>
-                        <li href="about.html"><a>About</a></li>
-                        <li><a>Course</a></li>
-                        <li><a>Contact</a></li>
-                        <li><a>Blog</a></li>
+                        <li ><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Course</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </div>     
         
@@ -51,20 +135,118 @@
             <h1>About Us </h1>
             <p>Join us in shaping the future of technology, exploring, learning,<br> and igniting your passion for the endless possibilities in computer science."
             </p>
-            <a href="" class="hero-btn">Events</a>
+            <a href="event.html" class="hero-btn">Events</a>
         </div>
        
     </section>
-    <h1>Welcome To UG Computer Science Department</h1>
-    <P>Step into the world of technology and innovation,
-         where computer science is the driving force behind economic growth.
-          Immerse yourself in the dynamic field of computer science, creating applications for everyday use and mastering the art of ethical,
-           reliable, and cutting-edge software development.</P> 
-           <P>At the heart of our program is computer programming, which equips graduates with the skills that employers demand - 
-           proficiency in current techniques, tools, and engineering principles.
-        Our diverse range of courses prepares students for a wide variety of roles,
-         fostering teamwork and specialist skills.</p> 
-         <P>With degree options like Bachelor of Science in Computer Science and Information Technology,
-          we prepare students for exciting careers, active research, and a future driven by technology.</P>
+  <div class="welcome"> <h1 >Welcome To UG Computer Science Department</h1>
+    <P >In our vibrant world of Information Technology, we believe in cultivating not just students but visionaries, architects of the future who thrive at the intersection of innovation and practicality. Picture yourself delving into a realm where developing applications isn't just a technical task but an art form, and where the mastery of ethical, reliable, and cutting-edge software development is the cornerstone of success.
+  
+      At the core of our department is the indispensable skill of computer programming – a transformative force that turns graduates into sought-after tech professionals with a global appeal.<p> But we don't stop at the basics. We delve deeper, ensuring our students not only navigate the current landscape of techniques and tools but also understand the solid engineering principles that form the bedrock of sustainable and impactful technology.
+      
+      Our courses form a diverse constellation, serving as a launchpad for our students to explore a multitude of roles across the ever-evolving landscape of the economy. We believe in the power of diversity, both in skills and perspectives, recognizing that success in the tech industry is a symphony of collaboration and individual expertise.</p>
+      
+     <P>As you embark on this exciting journey, consider options like the Bachelor of Science in Computer Science and Information Technology as more than an academic pursuit. It's a carefully curated stage, set to propel you into captivating careers, active research pursuits, and a future where technology isn't just a tool but a driving force. Join us as we mold not just graduates, but the innovators, problem-solvers, and leaders of tomorrow, 
+      creating a tech-driven landscape where the possibilities are as limitless as your imagination. <br>Welcome to the era where curiosity doesn't just meet code; it shapes the narrative of a future where every line written opens doors to unprecedented possibilities.</p>
+  
+      </P></div> 
+   
+        
+
+                <section class="prospect">
+                    <h3>Get To Know Us</h3>
+                    <P>It would be very much expedient if you got to know more about us, 
+                        our mission and mission statements that holds our exixtence.</P>
+                    <div class="row">
+                        <div class="prospect-col">
+                            <h3>Our Mission Statement</h3>
+                            <p>The mission is to provide our student with outstanding and innovative engineering education that reflect the attributes of the University of Ghana to compete successfully in the job market, and to conduct leading research that will serve the people of Ghana and the global world.</p>
+                        </div>
+                        <div class="prospect-col">
+                            <h3>Our Vision Statement</h3>
+                            <p>The vision of the Department is to achieve excellence in undergraduate education, graduate education, research, and public service. In pursuit of this, the Department has sort to:
+
+                                attract, train and retain outstanding students, faculty, and staff;
+                                foster innovation in research that will advance the industrial base of Ghana;
+                                develop infrastructure necessary to achieve the academic and research goals;
+                                foster interdisciplinary research within the department and with other disciplines in the University;
+                               </p>
+                        </div>
+                        <div class="prospect-col">
+                            <h3>Our community</h3>
+<P>The University of Ghana is one of the Africa's most preeminent public universities. Our impact on individuals, our region and the world is profound. whether we are launching young people into a boundless future or confronting the grand challenges of our time through dauntless research. UG educates more than 38,000students annually, with approximately 2.64% being computer science students. We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.</P>
+                       </div>
+                    </div>
+                        </section>
+                        <section>
+                            <!-- <h1 style="color: #000; text-align: center" >Our Organization and community</h1>
+                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repellendus dolor nobis expedita,
+                                 corporis exercitationem placeat adipisci aliquam qui at.
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil nam sapiente reprehenderit velit 
+                           ipsa obcaecati ratione doloremque ducimus quos quam.</P> -->
+                           
+                           <!-- <div class="facilities-col">  <img src="./web_images/UG teacher image.jpeg" >
+                                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repellendus dolor nobis expedita, corporis exercitationem placeat adipisci aliquam qui at?</P></div>
+                     
+                                <div class="facilities-col">  <img src="./web_images/UG teacher image.jpeg" >
+                                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repellendus dolor nobis expedita, corporis exercitationem placeat adipisci aliquam qui at?</P></div>
+                          -->
+    
+                        </section>
+                        <section class="footer">
+
+                            <div class="left">
+                                <li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
+                                <li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
+                                <li><a href="#">Graduate Courses(PhD)</a></li>
+                                <li><a href="#">Academic Calendar</a></li>
+                                <li><a href="#"> Level 200 & 300 Timetable</a></li>
+                                <li><a href="#">Placements For Level 200 Students</a></li>
+                                <li><a href="#"> Student Complaint Form</a></li> <br>
+                                <li><a href="#">Newsletter</a></li><br>
+                                <li><a href="#" class="faint">Stay update with our latest</a></li><br><br>
+                                <input type="text" name="" class="input" placeholder="email"><button>→</button>
+                                <br><br><br><br><br><br><br><br><br><br>
+                                <p style="font-size: 1.0rem !important; color: rgb(131, 130, 130) ; top: -7vh; position: relative;">Copyright &copy;2023 All rights reserved</p>
+                            </div>
+                            <div class="right">
+                                <div class="up">
+                                    <section>
+                                        <li><a href="">International Students</a></li>
+                                        <li><a href="">Entry Requirements</a></li>
+                                        <li><a href="">Contact Us</a></li>
+                                    </section>
+                                    <section>
+                                        <li><a href="">Research</a></li>
+                                        <li><a href="">Research at DCS</a></li>
+                                        <li><a href="">Research Impact</a></li>
+                                    </section>
+                                    <section>
+                                        <li><a href="">Libraries</a></li>
+                                        <li><a href="">About The Department</a></li>
+                                        <li><a href="">Introducing DCS</a></li>
+                                    </section>
+                    
+                                </div>
+                     
+                                <div class="down">
+                                    <section class="downleft">
+                                        <h2>Contact US</h2>
+                                        <p>Phone and email</p>
+                                        <li> <i class="fas fa-phone"></i> +233 208189896</li>
+                                        <li> <i class="fas fa-phone"></i> +233 20818986</li>
+                                        <li> <i class="fas fa-envelope"></i>dcs.ug.edu.gh</li>
+                                    </section>
+                    
+                                    <section class="downright">
+                                        <h2>Location</h2>
+                                        <p>University of Ghana Legon</p>
+                                        <p>Campus</p>
+                                        <p>Department</p>
+                                    </section>
+                                </div>
+                            </div>
+                    
+                    </section>
 </body>
 </html>
