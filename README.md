@@ -66,6 +66,11 @@ Great job! You have successfully cloned a repository, personalized it, and contr
 ### Name: NANA OSEI OWUSU AKOTO
     ID:11311652
 
+### The projects
+The project contains a 10 page
+Each of the pages are dedicated to one aspect of the computer science department
+On the page, users can find the courses, Admission requirements,students life among others
+The website is very user-friendly..
 ## SCREENSHOTS
 <img src="./web_images/Screen Shot 2023-11-28 at 6.26.06 PM.png">
 <img src="./web_images/Screen Shot 2023-11-28 at 6.26.54 PM.png">
@@ -82,6 +87,9 @@ Great job! You have successfully cloned a repository, personalized it, and contr
 <img src="./web_images/state .png">
 <img src="./web_images/donation.png">
 <img src="./web_images/Screen Shot 2023-11-28 at 9.01.09 PM.png">
+
+## What I have Learnt
+The project has taught me how to build a website and provided me with the ability to constructively critique poor website features. This project has made me realize that creating a website is not just a job but ability to creatively think.
 
 
 
