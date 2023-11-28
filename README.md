@@ -77,7 +77,15 @@ Great job! You have successfully cloned a repository, personalized it, and contr
 <img src="./web_images/Screen Shot 2023-11-28 at 6.27.51 PM.png">
 <img src="./web_images/Screen Shot 2023-11-28 at 6.28.00 PM.png">
 <img src="./web_images/Screen Shot 2023-11-28 at 6.28.04 PM.png">
-<img src="./web_images/Screen Shot 2023-11-28 at 6.28.07 PM.png">
+
+<img src="./web_images/research screen shot.png">
+<img src="./web_images/state .png">
+<img src="./web_images/donation.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 9.01.09 PM.png">
+
+
+
+
 
 
 
