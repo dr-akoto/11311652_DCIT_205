@@ -87,6 +87,9 @@ The website is very user-friendly..
 <img src="./web_images/state .png">
 <img src="./web_images/donation.png">
 <img src="./web_images/Screen Shot 2023-11-28 at 9.01.09 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 11.02.14 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 11.02.23 PM.png">
+
 
 ## What I have Learnt
 The project has taught me how to build a website and provided me with the ability to constructively critique poor website features. This project has made me realize that creating a website is not just a job but ability to creatively think.
