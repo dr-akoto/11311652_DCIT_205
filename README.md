@@ -63,6 +63,24 @@ On GitHub, you'll see a prompt to create a pull request. Click it, follow the st
 
 Great job! You have successfully cloned a repository, personalized it, and contributed like a coding expert.
 
+### Name: NANA OSEI OWUSU AKOTO
+    ID:11311652
+
+## SCREENSHOTS
+<img src="./web_images/Screen Shot 2023-11-28 at 6.26.06 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.26.54 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.27.20 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.27.26 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.27.30 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.27.39 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.27.43 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.27.51 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.28.00 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.28.04 PM.png">
+<img src="./web_images/Screen Shot 2023-11-28 at 6.28.07 PM.png">
+
+
+
 
 
 
