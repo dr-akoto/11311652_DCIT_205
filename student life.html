@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG | COMPUTER SCIENCE WEBSITE</title>
+    <link  rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,300,300italic,500,700' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+</head>
+<style>
+    .header{
+        height: 40vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.7)),
+        url(./web_images/int-std.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .student{
+            font-family: "museo", serif;
+            font-size: 2rem;
+            padding-bottom: 0;
+            height: 85vh;
+            font-style: italic;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(206, 234, 243,0.2) ;
+            color: white;
+        
+
+    }
+   
+    .logo{
+        width: 300px;
+        margin-bottom: 0%;
+        background: none;
+        margin-left: 0px;
+    }
+    .image{
+        position: relative;
+        width: 300px;
+        background-color:#08548a ;
+        float: left;
+        
+    }
+    nav{
+        /* overflow: hidden;
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;*/
+        background-color: #0b3d54; 
+        top: 0; 
+        top: 0;
+        /* position: fixed; */
+        scroll-behavior: smooth;
+        z-index: 1000;
+    }
+    
+    
+     nav a {
+        float: left;
+        display: block;
+    
+        color: #fff ;
+        text-align: center;
+        text-decoration: none;
+    } 
+     nav a:hover{
+        background-color: #280928;
+        cursor: pointer;
+    } 
+    .logo{
+        width: 300px;
+        margin-bottom: 0%;
+        background: none;
+        margin-left: 0px;
+    }
+    .image{
+        position: relative;
+        width: 300px;
+        background-color:#08548a ;
+        float: left;
+        
+    }
+    .nav-links{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding: 20px;
+
+    }
+    .nav-links ul li{
+        list-style: none;
+        display:inline-block ;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+       color:#fff;
+       text-decoration: none;
+       font-size: 15px;
+    }
+    .nav-links ul li ::after{
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #060a48;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-links ul li :hover::after{
+        width: 100%;
+    
+    }
+    .student p{
+        
+        font-style: italic;
+        float: left;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }
+    .student h1,h2 , .inner-leadership h2{
+        font-family: "museo", serif;
+        font-size: 3rem;
+    }
+    .innerstd{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding-left: 0%;
+    }
+    .student-life{
+    width: 100%;
+    margin-left: 3px;
+margin-top: 60px;  
+padding-right: 10px;  
+margin-bottom: 90px;}
+    .community{
+        width: 55%;
+    }
+    .community p{
+        font-size: 18px;
+        color: #000;
+        overflow: hidden;
+    }
+   .community h3{
+    margin-top: 50px;
+ margin-bottom: 10px;
+ text-align: center;
+overflow: hidden;   }
+   .student-center{
+    background-color:#055d77 ;
+    width:40%;
+    border-radius: 10px;
+ margin-left: 15px; 
+  }
+  .student-center  p{
+    font-family: "museo", serif;
+    font-size: 1.5rem;  
+text-decoration: none;
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+.picture-frame img{
+    width: 100%;
+    border-radius: 10px;
+padding-right: 10px;
+}
+.picture-frame{
+    width: 30%;
+    float: right;
+    width: 39%;
+    height: 28%;
+}
+
+/* student leadership */
+   .student-leadership{
+    height: 80vh;
+    width: 97%;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-image: 
+    url(./web_images/int-students2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-attachment: fixed;*/
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+.inner-leadership{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    height: 60vh;
+    padding-left: 0%;
+    background-color: rgba(0,0,0,0.6);
+    margin-left: 28%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 70px;
+    line-height: 20vh;
+}
+.border-pic{
+    margin-top: 100px;
+    height: 60vh;
+    width: 100%;
+    background-color: #08548a;
+    display: inline-block;
+}
+  .circled-pic {
+        position: relative;
+        margin-bottom: 2%;
+        width: 29%;
+        box-sizing: border-box;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        margin-left: 30px;
+        border-style:dashed;
+        border-radius: 50%;
+        border-color: aqua;
+        padding: .4%; 
+        margin-top: 8px; 
+        position: relative;    
+        margin-right: 0px;
+        display: inline-block;
+        float: left;
+    
+  } 
+  .circled-pic img{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+
+  }
+  .paragraph{
+    width: 30%;
+    float: middle;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top:  100px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 0px;
+    height: 40vh;
+    margin-right: 60px;
+  }
+  .paragraph p{
+    font-family: "museo", serif;
+    font-size: 1.2rem;  
+text-decoration: none;
+color: white;
+text-align: center;
+margin-top: 20px;
+  }
+  .paragraph h2{
+    font-family: "museo", serif;
+    font-size: 2.5rem;  
+text-decoration: none;
+color: white;
+text-align: center;
+margin-top: 20px;
+  }
+  .vl{
+    border-left: 3px solid aqua;
+    height: 40vh;
+    float:right;
+   }
+    
+</style>
+<body>
+    <section class="header">
+        <nav>
+            <!-- <div class="logo"> -->        
+                <div class="nav-links">
+                    <a href="about.html"><img class="image" src="./web_images/cs_logo.png"></a>
+
+                    <ul>
+                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Course</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="student life.html">student life</a></li>
+                        <li><a href="giving.html">Giving</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </div>     
+        
+        </nav>
+       
+       <div class="student">
+        <div class="innerstd">  
+              <h1>computer science</h1>
+             <h2>student life <h2>
+            <p>Our approach is rooted in our Principles and Practices, <br>which means we strive to create community, embrace simplicity, <br> act with integrity, seek peace and treat one another with respect.
+            </p>
+        </div>
+       
+       </div>
+    </section> 
+
+    <section class="student-life">
+        <div class="picture-frame">    
+                <img src="./web_images/face.jpeg"> 
+        </div>
+<div class="community">
+
+    <h3>community with difference</h3>
+<p>At University of Ghana, we believe there should be a connection between life inside and out of the classroom. That’s why you’ll see professors at sporting events and performances and why students serve alongside faculty on many committees. It’s why “town hall” style meetings draw people from all corners of campus. It’s the reason some students list faculty and staff among their closest friends on campus. And it’s why many IT employees are still in contact with students who graduated years—or even decades—ago.
+<br>
+    We work to build a diverse campus community that welcomes and includes everyone. We embrace our diversity, and we recognize that no matter our differences, there’s one thing that unites us: we are all computer scientists.
+
+    </p>
+
+</div>
+<div class="student-center"><a href="facilities.html"><p>  check out our upcoming programs</P></a></div>
+
+    </section>
+    <section class="student-leadership">
+        <div class="inner-leadership" style="margin-top: 20px;">
+            <h2>Student leadership</h2>
+            <p style="color: white; font-size:19px" > You’ll find all kinds of ways to lead, including some that might surprise you. Join a committee with faculty members, and they might just put you in charge of an important project. Lead a club, and you’ll find yourself listening carefully to other members and making decisions as a group. And when you graduate and move into the professional world, you’ll find that the skills Earlham teaches in coalition building and consensus decision-making are keys to success in any organization.
+             
+             </P>
+            </div>
+
+    </section>
+    <div class="border-pic">
+
+        <div class="paragraph">
+            <div class="vl"></div>
+
+            <h2>We're here for you</h2>
+            <p>The Office of Student Life works behind the scenes to keep you safe, healthy, and fulfilled throughout your journey at in our computer science Department. Whether you are looking for academic advice, a shoulder to lean on, or opportunities for personal and professional growth, our team is here to support you through it all.
+
+            </p>
+
+        </div>
+        <div class="circled-pic"><img src="./web_images/border-pic.png"></div>
+    
+    </div>
+    
+</body>
+</html>

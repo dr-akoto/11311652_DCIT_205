@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="./web_images/cs_logo.png"/>
+    <title>UG | COMPUTER SCIENCE DEPARTMENT</title>
+    	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,300,300italic,500,700' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+    <style>
+        .logo{
+            width: 300px;
+            margin-bottom: 0%;
+            background: none;
+            margin-left: 0px;
+        }
+        .image{
+            position: relative;
+            width: 300px;
+            background-color:#08548a ;
+            float: left;
+            
+        }
+        nav{
+            /* overflow: hidden;
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;*/
+            height: 14vh;
+            background-color: #0b3d54; 
+            top: 0; 
+            top: 0;
+            /* position: fixed; */
+            scroll-behavior: smooth;
+            z-index: 1000;
+        }
+        
+        
+         nav a {
+            float: left;
+            display: block;
+        
+            color: #fff ;
+            text-align: center;
+            text-decoration: none;
+        } 
+         nav a:hover{
+            cursor: pointer;
+        } 
+        .logo{
+            width: 300px;
+            margin-bottom: 0%;
+            background: none;
+            margin-left: 0px;
+        }
+        .image{
+            position: relative;
+            width: 300px;
+            float: left;
+            
+        }
+        .nav-links{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           padding: 20px;
+    
+        }
+        .nav-links ul li{
+            list-style: none;
+            display:inline-block ;
+            padding: 8px 12px;
+            position: relative;
+        }
+        .nav-links ul li a{
+           color:#fff;
+           text-decoration: none;
+           font-size: 15px;
+        }
+        .nav-links ul li ::after{
+            content: "";
+            width: 0%;
+            height: 2px;
+            background: #060a48;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+        .nav-links ul li :hover::after{
+            width: 100%;
+        }
+        .facilities{
+            width: 80%;
+            height: 25vh;
+            margin-top: 10px;
+            background-image: url(./web_images/give.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: #060a48;
+            margin-bottom: 50px;
+        }
+        .facilities-section{
+            margin-top: 0px;
+            height: 65vh;
+        }
+        .student-life{
+            width: 100%;
+            margin-left: 3px;
+        margin-top: 60px;  
+        padding-right: 10px;  
+        margin-bottom: 90px;}
+            .community{
+                width: 55%;
+            }
+            .community p{
+                font-size: 18px;
+                color: black;
+                overflow: hidden;
+            }
+           .community h3{
+            margin-top: 50px;
+         margin-bottom: 10px;
+         text-align: center;
+        overflow: hidden;  
+        color: #060a48;
+     }
+        .student-center{
+            background-color:#055d77 ;
+            width:40%;
+            border-radius: 10px;
+         margin-left: 15px; 
+          }
+          .student-center  p{
+            font-family: "museo", serif;
+            font-size: 1.5rem;  
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        
+        }
+        .picture-frame img{
+            width: 100%;
+            border-radius: 10px;
+        padding-right: 10px;
+        }
+        .picture-frame{
+            width: 30%;
+            float: right;
+            width: 39%;
+            height: 28%;
+        }
+        .h2{
+font-size: 17px;
+color: black;
+        }
+        .facilities h3{
+            font-family: "museo", serif;
+        font-size: 1.7rem;
+        }
+        .facilities-para{
+            margin-top: 0px;
+        }
+        .facilities-section h2{
+                font-size: 18px;
+                color: #060a48;
+                overflow: hidden;
+                margin-left: 50px;
+            }
+        
+       
+        
+    </style>
+</head>
+
+<body>
+    
+    <nav>
+        <!-- <div class="logo"> -->        
+            <div class="nav-links">
+                <a href="about.html"><img class="image" src="./web_images/cs_logo.png"></a>
+
+                <ul>
+                    <li ><a href="index.html">Home</a></li>
+                    <li ><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="student life.html">student life</a></li>
+                    <li><a href="giving.html">Gifts and Donatios</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                </ul>
+            </div>     
+    
+    </nav>
+<section class="facilities-section">
+<div class="facilities"> <h3>Give And Support</h3></div>
+<div class="facilities-para">
+    <h3 style="color: #060a48;  font: size 18px; text-align:left">Giving Opportunities</h3>
+    <p class="h2">At the UG computer science, your support transforms dreams into reality. <br> Join us in shaping the future of education, <br>empowering students, and advancing groundbreaking research. <br>Your contribution fuels progress and ensures a legacy of excellence. <br>Together, we create a brighter tomorrow. Thank you for making a difference!
+    </p>
+</div>
+</section>
+<section class="student-life">
+    <div class="picture-frame">    
+            <img src="./web_images/giving2.jpeg"> 
+    </div>
+<div class="community">
+
+<h3>Donations And Support Received</h3>
+<p>"Generous support from Mr.Akoto has catalyzed transformative growth in our Computer Science Department. Their commitment enhances academic excellence, fuels cutting-edge research, and provides invaluable resources for student success. This donation propels us forward, enabling innovative initiatives and reinforcing our dedication to shaping the next generation of tech leaders. We extend our deepest gratitude to Mr.Akoto for their visionary contribution to the advancement of knowledge and education."
+
+<br>
+We work to build a diverse campus community that welcomes and includes everyone. We embrace our diversity, and we recognize that no matter our differences, there’s one thing that unites us: we are all computer scientists.
+
+</p>
+
+</div>
+
+</section>
+<section class="student-life">
+    <div class="picture-frame">    
+        <img src="./web_images/donation.jpeg"> 
+        </div>
+    <div class="community" >
+        <h3>How Students Benefit From Donations</h3>
+     <p>  Students who received laptop donations were overjoyed and grateful for the opportunity to learn and grow. These donations have enabled them to access online resources, communicate with their peers and teachers, and complete their assignments with ease. The laptops have also helped them to develop new skills and explore new interests. The students are now more confident and motivated to pursue their dreams and aspirations. The donors have made a significant impact on the lives of these students, and their generosity is deeply appreciated
+    </p>
+      <p> <a href="contact.html">Contact us </a> to for a discussion about the establishment of donation bank for students.</p>
+     
+    </section>
+    <section class="footer">
+
+        <div class="left">
+            <li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
+            <li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
+            <li><a href="#">Graduate Courses(PhD)</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="#"> Level 200 & 300 Timetable</a></li>
+            <li><a href="#">Placements For Level 200 Students</a></li>
+            <li><a href="#"> Student Complaint Form</a></li> <br>
+            <li><a href="#">Newsletter</a></li><br>
+            <li><a href="#" class="faint">Stay update with our latest</a></li><br><br>
+            <input type="text" name="" class="input" placeholder="email"><button>→</button>
+            <br><br><br><br><br><br><br><br><br><br>
+            <p style="font-size: 1.0rem !important; color: rgb(131, 130, 130) ; top: -7vh; position: relative;">Copyright &copy;2023 All rights reserved</p>
+        </div>
+        <div class="right">
+            <div class="up">
+                <section>
+                    <li><a href="">International Students</a></li>
+                    <li><a href="">Entry Requirements</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </section>
+                <section>
+                    <li><a href="">Research</a></li>
+                    <li><a href="">Research at DCS</a></li>
+                    <li><a href="">Research Impact</a></li>
+                </section>
+                <section>
+                    <li><a href="">Libraries</a></li>
+                    <li><a href="">About The Department</a></li>
+                    <li><a href="">Introducing DCS</a></li>
+                </section>
+
+            </div>
+ 
+            <div class="down">
+                <section class="downleft">
+                    <h2>Contact US</h2>
+                    <p>Phone and email</p>
+                    <li> <i class="fas fa-phone"></i> +233 208189896</li>
+                    <li> <i class="fas fa-phone"></i> +233 20818986</li>
+                    <li> <i class="fas fa-envelope"></i>dcs.ug.edu.gh</li>
+                </section>
+
+                <section class="downright">
+                    <h2>Location</h2>
+                    <p>University of Ghana Legon</p>
+                    <p>Campus</p>
+                    <p>Department</p>
+                </section>
+            </div>
+        </div>
+
+</section>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="images/fave.png"/>
+    <title>UG | COMPUTER SCIENCE DEPARTMENT</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,300,300italic,500,700' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+    <title>UG | COMPUTER SCIENCE DEPARTMENT</title>
+</head>
+<style>
+    .logo{
+        width: 300px;
+        margin-bottom: 0%;
+        background: none;
+        margin-left: 0px;
+    }
+    .image{
+        position: relative;
+        width: 300px;
+        background-color:#08548a ;
+        float: left;
+        
+    }
+    nav{
+        /* overflow: hidden;
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;*/
+        height: 14vh;
+        background-color: #0b3d54; 
+        top: 0; 
+        top: 0;
+        /* position: fixed; */
+        scroll-behavior: smooth;
+        z-index: 1000;
+    }
+    
+    
+     nav a {
+        float: left;
+        display: block;
+    
+        color: #fff ;
+        text-align: center;
+        text-decoration: none;
+    } 
+     nav a:hover{
+        cursor: pointer;
+    } 
+    .logo{
+        width: 300px;
+        margin-bottom: 0%;
+        background: none;
+        margin-left: 0px;
+    }
+    .image{
+        position: relative;
+        width: 300px;
+        background-color:#08548a ;
+        float: left;
+        
+    }
+    .nav-links{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding: 20px;
+
+    }
+    .nav-links ul li{
+        list-style: none;
+        display:inline-block ;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+       color:#fff;
+       text-decoration: none;
+       font-size: 15px;
+    }
+    .nav-links ul li ::after{
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #060a48;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-links ul li :hover::after{
+        width: 100%;
+    }
+    .facilities{
+        width: 80%;
+        height: 25vh;
+        background-color:#0b3d54;
+        margin-top: 30px;
+        color: wheat;
+        margin-bottom: 50px;
+    }
+    .h2{
+        float: left;
+        font-size: 18px;
+        color: black;
+    }
+    .facilities-para{
+  width: 50%;
+    }
+    .facilities-section{
+        height: 80vh;
+    }
+    .content{
+        width: 100%;
+        height: 80vh;
+        background-color: red;
+        margin-top: 30px;
+    }
+    
+    
+    
+    .main-div{
+        margin-top: 0px;
+        width: 100%;
+        display: flex;
+        gap: .5rem;
+        flex-wrap: wrap;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+    .main-div>div{
+        width: 30%;
+        height: 50vh;
+        border-radius: 10px;
+    }
+    .sub-div>div{
+        width: 30%;
+        background-color: rgb(51, 0, 255);
+        height: 40vh;
+        border-radius: 10px;
+    }
+    .sub-div{
+        padding-left: 20px;
+        margin-top: 20px;
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    .images-div{
+        background-image: url(./web_images/facilities-image.jpeg);
+
+    }
+    .footer{
+        margin-top: 50px;
+    }
+    
+</style>
+<body>
+        <nav>
+            <!-- <div class="logo"> -->        
+                <div class="nav-links">
+                    <a href="about.html"><img class="image" src="./web_images/cs_logo.png"></a>
+
+                    <ul>
+                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Course</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="student life.html">student life</a></li>
+                        <li><a href="giving.html">Gifts and Donatios</a></li>
+                       <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </div>     
+        
+        </nav>
+<section class="facilities-section">
+    <div class="facilities"> <h3>Facilities & Management</h3></div>
+    <div class="facilities-para">
+        <h2 style="color: #060a48;">State-Of-The-Art</h2>
+        <p class="h2">The Computer Science Department boasts state-of-the-art facilities designed to foster innovation and learning. Equipped with cutting-edge labs,<br> high-performance servers, and collaborative workspaces, students engage in hands-on coding, robotics, and artificial intelligence projects.<br> Our dedicated faculty ensures a dynamic environment, preparing graduates for success in the tech industry.</p>
+    </div>
+</section>
+<section>
+    <div class="main-div">
+        <div class="images-div"></div>
+        <div class="images-div2" style="background-image: url(./web_images/lab\ session.jpeg); background-size:cover; border: radius 10px;"></div>
+        <div class="images-div3" style="background:url(./web_images/library-image.jpeg) ; background-size:cover; border: radius 10px;"></div>
+    </div>
+    <div class="sub-div">
+        <div class="images-div4" style="background-image:url(./web_images/lab.jpeg); background-size:cover ; border: radius 10px;"></div>
+        <div class="images-div5" style="background-image:url(./web_images/int-std.jpeg); background-size:cover ; border: radius 10px;">
+    </div>
+</section>
+<section class="footer">
+
+    <div class="left">
+        <li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
+        <li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
+        <li><a href="#">Graduate Courses(PhD)</a></li>
+        <li><a href="#">Academic Calendar</a></li>
+        <li><a href="#"> Level 200 & 300 Timetable</a></li>
+        <li><a href="#">Placements For Level 200 Students</a></li>
+        <li><a href="#"> Student Complaint Form</a></li> <br>
+        <li><a href="#">Newsletter</a></li><br>
+        <li><a href="#" class="faint">Stay update with our latest</a></li><br><br>
+        <input type="text" name="" class="input" placeholder="email">
+        <br><br><br><br><br><br><br><br><br><br>
+        <p style="font-size: 1.0rem !important; color: rgb(131, 130, 130) ;  position: relative;" >
+            Copyright &copy;2023 All rights reserved</p>
+    </div>
+    <div class="right">
+        <div class="up">
+            <section>
+                <li><a href="">International Students</a></li>
+                <li><a href="">Entry Requirements</a></li>
+                <li><a href="">Contact Us</a></li>
+            </section>
+            <section>
+                <li><a href="">Research</a></li>
+                <li><a href="">Research at DCS</a></li>
+                <li><a href="">Research Impact</a></li>
+            </section>
+            <section>
+                <li><a href="">Libraries</a></li>
+                <li><a href="">About The Department</a></li>
+                <li><a href="">Introducing DCS</a></li>
+            </section>
+
+        </div>
+
+        <div class="down">
+            <section class="downleft">
+                <h2>Contact US</h2>
+                <p>Phone and email</p>
+                <li> <i class="fas fa-phone"></i> +233 208189896</li>
+                <li> <i class="fas fa-phone"></i> +233 20818986</li>
+                <li> <i class="fas fa-envelope"></i>dcs.ug.edu.gh</li>
+            </section>
+
+            <section class="downright">
+                <h2>Location</h2>
+                <p>University of Ghana Legon</p>
+                <p>Campus</p>
+                <p>Department</p>
+            </section>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
+
